@@ -25,6 +25,7 @@ public class BinaryConverter {
        // assert result == "hello" : "Something wrong";
         assert base10Num == 0 || base10Num == 1 : "value is not <= 1: " + base10Num;
        // assert true;
+       //assert false;
         result = base10Num + result;
         assert all0sAnd1s(result);
         	if( isNeg )
